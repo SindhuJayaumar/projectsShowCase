@@ -1,0 +1,18 @@
+.ul-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.list-items {
+  width: 200px;
+  list-style-type: none;
+}
+.image {
+  width: 160px;
+  border-radius: 5px;
+}
+.content {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}

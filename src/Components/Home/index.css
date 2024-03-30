@@ -1,0 +1,71 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  background-color: #e2e8f0;
+}
+
+.logo-image {
+  width: 150px;
+  margin-left: 30px;
+}
+.selection-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.select {
+  height: 40px;
+  width: 270px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 6px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.failure-image {
+  width: 450px;
+  margin-top: 20px;
+}
+.contents {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.failure-btn {
+  font-family: 'Roboto';
+  font-size: 25px;
+  background-color: #328af2;
+  color: #ffff;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.Loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
